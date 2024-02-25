@@ -431,7 +431,7 @@ select {
   .deals_container,
   .details_container {
     padding: 0 4rem;
-  }
+  } 
   .container {
     gap: 0.5rem;
   }
@@ -446,6 +446,9 @@ select {
   .App{
     width: 100%;
     overflow: hidden;
+  }
+  .header_container,.header_details{
+    gap: 10px;
   }
   .nav_details_two{
     gap: 10px;
@@ -473,7 +476,7 @@ select {
   }
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 680px) {
   .App {
     width: 100%;
     overflow: hidden;
@@ -527,11 +530,12 @@ select {
     padding: 2px;
   }
   .nav_details_two {
-    gap: 20px;
+    gap: 15px;
     padding: 5px 0;
   }
   .nav_details_two p {
     padding: 0;
+    text-align: center;
   }
   .breadcrumbs {
     padding: 10px 0;
@@ -578,6 +582,10 @@ select {
   .container {
     display: block;
     padding: 10px;
+    
+  }
+  .data_container{
+    margin: 10px 0;
   }
   .signup {
     display: block;
@@ -585,6 +593,7 @@ select {
   }
   .email_input {
     display: flex;
+    padding: 1rem 0;
   }
   .signup .heading {
     margin: 0;
