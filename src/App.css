@@ -116,6 +116,11 @@ select {
   display: flex;
   gap: 10px;
 }
+.nav_detail div{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
 
 .nav_detail p,
 .nav_details_two p,
@@ -448,5 +453,138 @@ select {
     margin: 10px;
     border-radius: 12px;
     width: 100%;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .App {
+    width: 100%;
+    overflow: hidden;
+  }
+  .header {
+    padding: 5px;
+  }
+  .header_container {
+    display: block;
+    padding: 0;
+  }
+  .input_details {
+    width: 50%;
+    margin: 0 auto;
+  }
+  .input_details input {
+    padding: 5px 30px;
+    width: 100%;
+    border-radius: 20px;
+  }
+  .input_details img {
+    top: 7px;
+    left: 10px;
+    width: 18px;
+  }
+  .header_details {
+    gap: 1rem;
+    padding-top: 10px;
+  }
+  .nav_heading {
+    font-size: 1.6rem;
+    padding: 10px;
+    font-weight: 400; 
+  }
+  .nav_container {
+    padding: 0 5px;
+  }
+  .nav_details {
+    display: block;
+    padding: 5px 0;
+  }
+  .nav_detail img {
+    width: 12px;
+  }
+  .nav_detail{
+    flex-direction: column;
+    align-items: start;
+    gap: 0;
+  }
+  .nav_detail p {
+    padding: 2px;
+  }
+  .nav_details_two {
+    gap: 20px;
+    padding: 5px 0;
+  }
+  .nav_details_two p {
+    padding: 0;
+  }
+  .breadcrumbs {
+    padding: 10px 0;
+    gap: 6px;
+  }
+  .content {
+    display: block;
+  }
+  .image_part,
+  .details_part {
+    padding: 10px;
+  }
+  .absolute {
+    top: -16px;
+  }
+  .points {
+    top: 4%;
+  }
+  .rating_part {
+    display: block;
+    padding: 0;
+    padding: 5px;
+  }
+  .rating_part-one {
+    flex-direction: row;
+    border-radius: 5px;
+    padding: 0 10px;
+    margin: 5px 0;
+  }
+  .rating{
+    padding: 0;
+  }
+  .details_part p {
+    font-size: 14px;
+  }
+  .heading{
+      font-size:1.6rem;
+      padding: 1rem 0;
+      font-weight: 400;
+  }
+  .btn{
+    padding: 10px;
+  }
+  .container{
+    display: block;
+    padding: 10px;
+  }
+  .signup{
+    display: block;
+    padding: 10px;
+  }
+  .email_input{
+    display: flex;
+
+  }
+  .signup .heading{
+    margin: 0;
+  }
+  .signup .input,.signup-btn{
+    margin: 0;
+    border-radius: 0;
+  }
+  .footer_container{
+    display: block;
+    padding:20px;
+  }
+  .footer{
+    padding: 0;
+  }
+  .country{
+    display: none;
   }
 }

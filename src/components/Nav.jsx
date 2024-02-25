@@ -10,10 +10,14 @@ const Nav = () => {
         <hr className="hr" />
         <div className="nav_details">
           <div className="nav_detail">
-            <img src={Tick} alt="" />
-            <p>Last Updated - February 22, 2020</p>
-            <img src={Info} alt="" />
-            <p>Advertising Disclosure</p>
+            <div>
+              <img src={Tick} alt="" />
+              <p>Last Updated - February 22, 2020</p>
+            </div>
+            <div>
+              <img src={Info} alt="" />
+              <p>Advertising Disclosure</p>
+            </div>
           </div>
           <div>
             <select name="" id="">

@@ -40,8 +40,8 @@ const Deals = () => {
 
         <div className="signup">
           <h1 className="heading">Sign up and get exclusive special deals</h1>
-          <div>
-            <input type="text" className="input" />
+          <div className="email_input">
+            <input type="text" placeholder="Email" className="input" />
             <button className="signup-btn">Sign up</button>
           </div>
         </div>
